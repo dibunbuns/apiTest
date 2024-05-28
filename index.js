@@ -18,6 +18,7 @@ async function fetchData(){
         
         if(!response.ok){
             throw new Error("Could not fetch pokemon");
+            
         }
 
         const data = await response.json();
