@@ -1,9 +1,11 @@
 <link rel="stylesheet" href="styles.css">
 <body>
-<script src="index.js"></script>
-<div>
     <input type="text" id="pokemonName" placeholder="Enter Pokemon name">
-    <button onclick ="fetchData()" id="button">Fetch Pokemon</button><br>
-</div>
+    <button id="button">Fetch Pokemon</button>
+    <br>
+    <div id="loading" style="display:none;">Loading...</div>
+    <div id="error" style = "display: none"></div>
     <img src="" alt="Pokemon sprite" id="pokemonSprite" style = "display: none">
+    <script src="index.js"></script>
 </body>
+
